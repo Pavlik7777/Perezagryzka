@@ -7,11 +7,11 @@ double y = double.Parse(Console.ReadLine());
 Money x1 = new Money(x);
 Money x2 = new Money(y);
 Money sum = x1 + x2;
-Console.WriteLine("Сумма про сложении = " + sum.Total.ToString("F2") + " руб");
+Console.WriteLine("Сумма про сложении = " + sum.Total + " руб");
 Money min = x1 - x2;
-Console.WriteLine("Сумма про вычитании = " + min.Total.ToString("F2") + " руб");
+Console.WriteLine("Сумма про вычитании = " + min.Total + " руб");
 Money div = x1 / x2;
-Console.WriteLine("Сумма про делении = " + div.Total.ToString("F2") + " руб");
+Console.WriteLine("Сумма про делении = " + div.Total + " руб");
 sum.Dengi();
 class Money
 {
