@@ -53,7 +53,7 @@ class Money
             kopeyki = (kopeyki % cop);
 
             if (count > 0)
-                Console.WriteLine($"{cop.ToString("0.##")} руб - {count} шт");
+                Console.WriteLine($"{cop.ToString("")} руб - {count} шт");
         }
     }
 }
