@@ -1,9 +1,9 @@
 ﻿//Перегрузка операций
 //Вариант 33
 Console.Write("Введите первое число: ");
-double x = double.Parse(Console.ReadLine());
+double x = double.Parse(Console.ReadLine()!);
 Console.Write("Введите второе число: ");
-double y = double.Parse(Console.ReadLine());
+double y = double.Parse(Console.ReadLine()!);
 Money x1 = new Money(x);
 Money x2 = new Money(y);
 Money sum = x1 + x2;
